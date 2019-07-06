@@ -1,0 +1,9 @@
+<h1>Enter The Members Details</h1>
+<%= simple_form_for @member do |f| %>
+  <%= f.input :name %>
+  <%= f.input :rank %>
+  <%= f.input :year %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+
